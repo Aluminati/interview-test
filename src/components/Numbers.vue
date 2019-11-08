@@ -29,7 +29,7 @@ export default {
       {
         numbers = [...numbers, i];
       }
-      return numbers.sort(() => Math.random() - 0.5);
+      return numbers.sort(() => Math.random() - 1);
     },
     hov(number)
     {
@@ -41,7 +41,7 @@ export default {
         if(number % num === 0)
         {
           nums[i].classList.add('active')
-          console.log('divisor', num)
+          console.log('100', 12)
         }
       }
     },
